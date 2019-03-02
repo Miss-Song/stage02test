@@ -1,0 +1,7 @@
+footer{background:#092852;height:0.87rem;flex-shrink:0;display: flex;justify-content: space-around;align-items:center;font-size:0.22rem;color:#e0e0e0;}
+footer figure{display: flex;flex-direction: column;align-items: center;}
+footer figure a{color:#e0e0e0;}
+footer .iconfont{font-size: 0.30rem;color:#d0d0d0;}
+footer .icon-xiangji{font-size:0.53rem;}
+footer .ck{color:#056ef8;}
+footer .ck a{color:#056ef8;}

@@ -1,0 +1,39 @@
+section{flex:1;overflow: auto;}
+section{background:#fff;}
+section .xinxi{
+    font-size:0.28rem;
+    color:rgba(82, 78, 78, 0.667);
+}
+section .xinxi article{
+    display:flex;
+    align-items:center;
+    height:0.9rem;
+    border-bottom:0.02rem solid #ccc;
+}
+section .xinxi input{
+    height: 0.9rem;
+    line-height:0.9rem;
+    border:none;
+    background:none;
+    outline:none;
+}
+section .xinxi span{
+    margin-left:0.4rem;
+    margin-right:0.2rem;
+}
+section .loginorreg{
+    font-size:0.24rem;
+}
+section .loginorreg input{
+    height:0.9rem;
+    background:rgb(14, 174, 238);
+    color:#fff;
+    width:100%;
+    margin:0.2rem 0;
+    outline:none;
+    border:0.02rem solid rgb(10, 189, 243);
+}
+section .loginorreg input:hover{
+    background:rgb(9, 130, 211);
+    color:rgb(29, 226, 226);
+}

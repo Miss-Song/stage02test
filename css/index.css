@@ -1,0 +1,156 @@
+section{flex:1;overflow: auto;}
+  #bannerBox{
+    position: relative;
+    width: 6.4rem;
+    height: 3rem;
+    border: 0.01rem solid #CECECE;
+    overflow: hidden;
+  }
+  #bannerList{
+    position: absolute;
+    height: 3rem;
+    display: flex;
+  }
+  #bannerList li{
+   
+    width: 6.4rem;
+    height: 3rem;
+  }
+  #bannerList img{
+    width: 9rem;
+    height: 3rem;
+  }
+  #btns span{
+    position: absolute;
+    top: 50%;
+    margin-top: -0.25rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #000000;
+    opacity: .3;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 0.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  #btns .prev{
+    left:0.2rem;
+  }
+  #btns .next{
+    right: 0.2rem;
+  }
+  #nums{
+    position: absolute;
+   
+    bottom: 0.2rem;
+    display: flex;
+    left:50%;
+    margin-left:-0.6rem;
+  }
+  #nums li{
+   
+    margin: 0.1rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: white;
+    color: red;
+    text-align: center;
+    line-height: 0.2rem;
+    cursor: pointer;
+  }
+  #nums li:hover,#nums li.hover{
+    background: red;
+    color: white;
+  }
+
+
+
+
+  /*
+  .focus .scroll_cons {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3rem;
+    border:0.01rem solid transparent;
+    z-index: 18;
+    overflow:hidden;
+    
+  }
+  
+  .focus .scroll_cons li {
+    display: none;
+  }
+  .focus .scroll_cons li img{
+      width:100%;
+      height:3rem;
+  }
+  .focus .scroll_cons li:nth-of-type(1) {
+    display: block;
+  }
+  
+    z-index: 19;
+  }
+  
+  .focus .scroll_nav li.on {
+    background: #C80002;
+  }
+  .focus .scroll_nav{
+      display:flex;
+      flex-direction: row;
+      width:100%;
+      justify-content: center;
+  }
+  .focus .scroll_nav li {
+      margin-top:-0.5rem;
+    width: 0.26rem;
+    height: 0.26rem;
+    text-indent: -0.99rem;
+    overflow: hidden;
+    background: #B5B5B5;
+    border-radius: 50%;
+    margin-right:0.08rem;
+    cursor: pointer;
+  } */
+  
+
+
+
+
+
+
+#mainti a {
+    display: flex;
+    height:1.09rem;
+    padding: 0.09rem 0.07rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+#mainti a img{
+    
+        width: 0.59rem;
+        height: 0.6rem;
+  
+}
+#mainti a div{
+ 
+        margin-left: 0.12rem;
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+        flex-direction: column;
+ 
+}
+#mainti a div h2{
+  
+        font-weight: normal;
+       font-size:0.28rem;
+       color:rgb(53, 56, 56);
+ 
+}
+#mainti a div  p {
+    font-size: 0.14rem;
+    color: #767676;
+}
+

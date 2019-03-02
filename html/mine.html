@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/mine.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script>
+        window.onload = function () {
+            getRem(640, 100)
+        };
+        window.onresize = function () {
+            getRem(640, 100)
+        };
+        function getRem(pwidth, prem) {
+            var html = document.getElementsByTagName("html")[0];
+            var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+            html.style.fontSize = oWidth / pwidth * prem + "px";
+        }
+    </script>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/jquery-3.0.0.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/mine.js"></script>
+    <script src="../js/footer.js"></script>
+</head>
+
+<body>
+    <header>
+        <span>
+        </span>
+        <h2>我的</h2>
+    </header>
+    <section>
+        <form action="">
+            <div class="xinxi">
+                <article>
+                    <span>Username</span><input type="text" id="username">
+                </article>
+                <article>
+                    <span>Password</span><input type="password" id="pw">
+                </article>
+            </div>
+            <div class="loginorreg">
+                <input type="button" value="登陆" id="login">
+                <input type="button" value="注册" id="regist">
+            </div>
+        </form>
+    </section>
+    <div id="footer"></div>
+</body>
+
+</html>

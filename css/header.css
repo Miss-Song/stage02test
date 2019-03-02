@@ -1,0 +1,23 @@
+*{margin:0;padding:0;}
+body,html{height:100%;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+
+body{display: flex;flex-direction: column;}
+
+header{flex-shrink:0;height:0.88rem;background:#056ef8;font-size:0.22rem;display: flex;align-items:center;justify-content: center;}
+.menu{height:100%;background:#195026;width:3.6rem;position:fixed;left:0rem;top:0rem;z-index: 20000;}
+.menu .m1{display: flex;width:3.6rem;height:2.15rem;align-items: center;justify-content: center;}
+.menu img{width:1.57rem;height:1.56rem;}
+.menu h3{text-align: center;line-height: 0.59rem;background:#1d7034;border-bottom:0.01rem solid #4a7a57;border-top:0.01rem solid #4a7a57;font-size:0.23rem;font-weight: normal;color:#fff;}
+.menu p:nth-of-type(1){color:#bac4bc;font-size:0.24rem;line-height:0.48rem ;height:1.39rem;border-bottom:1px solid #4a7a57;padding:0.21rem 0.56rem 0 0.62rem;box-sizing: border-box;}
+.menu p:nth-of-type(2),.menu p:nth-of-type(3),.menu p:nth-of-type(4){color:#bac4bc;font-size:0.22rem;text-align:center;line-height:0.57rem ;height:0.57rem;border-bottom:1px solid #4a7a57;}
+
+header span{position: absolute;top:0.32rem;left:0.3rem;width:0.29rem;height:0.21rem;background:url(../img/caidan.png) no-repeat;background-size:0.29rem 0.21rem;}
+header a{color:#fff;}
+header p{height:0.48rem;border-radius:0.24rem;}
+header p a{width:1.18rem;display:block;float:left;text-align:center;line-height:0.48rem;}
+header p a:nth-child(1){background:#64da86;color:#f8fff3;border-radius:0.24rem 0 0 0.24rem;}
+header p a:nth-child(2){background:#3dd066;color:#a2e8b6;border-radius:0 0.24rem 0.24rem 0;}
+header h2{font-weight:normal;font-size:0.34rem;color:#fff;}
